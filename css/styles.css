@@ -2,12 +2,17 @@ body{
     font-family: 'Ubuntu', sans-serif;
     padding-right: -12px;
     padding-bottom: -12px;
+    background-color: #1e1e1e;
+    color: white;
 }
 
 #brand{
     font-size: 2rem;
 }
 
+.card {
+    background-color: #2b2929;
+}
 
 
 .carousel-item{
@@ -34,13 +39,13 @@ body{
 .centered i{
     font-size: 4rem;
     margin-bottom: 1rem;
-    color: #ef8172;
+    color: #ffffff;
 }
 
 .centered i:hover{
     font-size: 4rem;
     margin-bottom: 1rem;
-    color: #ff4c68;
+    color: #80a0b6;
 }
 
 .container-fluid{
@@ -75,17 +80,19 @@ body{
 #end{
     text-align: center;
     padding: 3% 5%;
-    background-color: #ff4c68;
+    background-color: #121111;
 }
 
 .features{
     padding: 7% 15%;
-    background-color: rgb(255, 255, 255);
+    background-color: #1e1e1e;
     z-index: 1;
     position: relative;
+    color: #dee2e6;;
     
     
 }
+
 
 #footer{
     text-align: center;
@@ -109,7 +116,7 @@ h1{
 
 h2{
     font-family: "Montserrat";
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 700;
     font-size: 3rem;
 }
@@ -203,7 +210,7 @@ h2{
     
     position: relative;
     text-align: center;
-    background-color: #ef8172;
+    background-color: #121111;
     
 }
 
@@ -223,7 +230,11 @@ h2{
 
 
 #top{
-    background-color: #ff4c68;
+    background-image: url(../images/gym.webp) ;
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+   /* Resize the background image to cover the entire container */
+    background-color: #2b2929;
    position: relative;
    display: block;
    padding-bottom: 4%;
@@ -235,7 +246,7 @@ h2{
 }
 
 #topImage{
-    margin-top: 15%;
+    
     color: white;
    
 }
@@ -248,6 +259,10 @@ h2{
 #videoplayer{
     width: 50%;
     height: 30rem;
+}
+
+#wellness ul{
+    margin-bottom: 10px;
 }
 
 
