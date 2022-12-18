@@ -25,8 +25,7 @@ body{
 
 .centered{
     text-align: center;
-    
-    
+    margin: 4rem auto;
 }
 
 .centered h3{

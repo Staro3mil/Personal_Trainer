@@ -1,0 +1,23 @@
+body { 
+    background: url(../images/gym.webp)    fixed; 
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    background-size: cover;
+  }
+  h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+  }
+  h2{
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .buttons{
+   
+    margin-top: 16%;
+  }
+
+  .btn{
+    margin: 1rem 3rem;
+  }

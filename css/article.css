@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(61, 60, 60);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+img{
+    width: 30%;
+}
+a h1{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 900;
+}
+#text{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #80a0b6;
+}
