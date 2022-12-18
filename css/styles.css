@@ -306,3 +306,30 @@ hr{
 }
 
 
+@media (max-width: 800px) {
+    h3{
+        font-size: small;
+    }
+    #brand{
+        font-size: large;
+    }
+    h1{
+        font-size: medium;
+    }
+    ul{
+        font-size: small;
+    }
+    #customer{
+        border-radius: 30% 0 30% 0;
+        height: 7rem;
+        
+    }
+    
+    #mike{
+        border-radius: 30% 0 30% 0;
+       height: 7rem;
+        
+    }
+}
+
+
