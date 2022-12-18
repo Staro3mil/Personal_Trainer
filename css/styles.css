@@ -16,7 +16,7 @@ body{
 
 
 .carousel-item{
-    padding: 7% 15%;
+    padding: 3% 15%;
 }
 .carousel-inner h3{
     font-family: 'Montserrat', sans-serif;
@@ -55,16 +55,20 @@ body{
     padding: 3% 2%;
 }
 
+.checked {
+    color: orange;
+  }
+
 #customer{
     border-radius: 30% 0 30% 0;
-    width: 27%;
-    padding: 20px;
+    height: 25rem;
+    
 }
 
 #mike{
     border-radius: 30% 0 30% 0;
-    width: 50%;
-    padding: 20px;
+   height: 25rem;
+    
 }
 
 @media (max-width: 991px) {
@@ -78,7 +82,7 @@ body{
 
 #end{
     text-align: center;
-    padding: 3% 5%;
+    padding: 0 5%;
     background-color: #121111;
 }
 
@@ -105,7 +109,10 @@ body{
     padding-top: 2%;
     padding-bottom: 2%;
 }
-
+#filler{
+    background-color: #121111;
+    padding-bottom: 5%;
+}
 h1{
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
@@ -120,6 +127,18 @@ h2{
     font-size: 3rem;
 }
 
+hr{
+    background-color: #121111;
+    margin: 0 auto;
+
+    border: solid;
+    border-style: dotted;
+    width: 40%;
+    border-width: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
 .icons {
     padding: 3% 0.5% 0;
 }
@@ -205,7 +224,7 @@ h2{
     
 }
 
-#testimonials{
+#quotes{
     
     position: relative;
     text-align: center;
@@ -226,6 +245,23 @@ h2{
     
 }
 
+#testimonials{
+    margin-top: 5rem;
+    position: relative;
+    text-align: center;
+    background-color: #121111;
+    
+}
+#testimonials h1{
+    padding-top: 1rem;
+    margin: 3rem auto;
+}
+#testimonials img{
+    height: 25rem;
+    margin: 1rem auto;
+    border-radius: 30% 0 30% 0;
+    
+}
 
 
 #top{
@@ -262,7 +298,11 @@ h2{
 
 #wellness ul{
     margin-bottom: 10px;
+    text-align: center;
 }
-
+#wellness {
+    text-align: center;
+    padding: 2rem 1rem;
+}
 
 
